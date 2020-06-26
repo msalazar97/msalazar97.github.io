@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 90px;
+}
+
+.white {
+    background-color: white;
+    color:black;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.title {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+li {
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.icon {
+    width: 70px;
+}
+
+#about {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.col {
+    text-align: center;
+    display: flex;
+    flex: 25%;
+    padding: 5px;
+    justify-content: center;
+ }
+
+.level {
+    margin-left: 10px;
+    margin-bottom: 3px;
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.level.five {
+    background-color: green;
+}
+
+.level.four {
+    background-color: chartreuse;
+}
+
+.level.three {
+    background-color: yellow;
+}
