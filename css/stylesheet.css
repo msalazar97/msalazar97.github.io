@@ -45,6 +45,22 @@ li {
     text-align: center;
 }
 
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #152238;
+    color: white;
+}
+
+.credit {
+    padding-top: 12px;
+    font-size: 10px;
+}
+
+.me {
+    font-size: 20px;
+}
+
 .row {
     display: flex;
     justify-content: center;
